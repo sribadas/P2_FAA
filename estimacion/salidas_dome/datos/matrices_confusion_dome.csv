@@ -1,0 +1,76 @@
+# Matrices de confusion acumuladas (suma) sobre 10 folds
+# F1 reportado: macro (no ponderado)
+# Clases: Insufficient_Weight,Normal_Weight,Obesity_Type_I,Obesity_Type_II,Obesity_Type_III,Overweight_Level_I,Overweight_Level_II
+
+# Configuracion: DoME n=30
+Insufficient_Weight,270,2,0,0,0,0,0
+Normal_Weight,68,145,15,0,0,32,27
+Obesity_Type_I,0,11,210,88,14,8,20
+Obesity_Type_II,0,1,14,280,1,1,0
+Obesity_Type_III,1,0,0,0,322,0,1
+Overweight_Level_I,0,37,76,0,2,149,26
+Overweight_Level_II,0,26,93,10,4,43,114
+
+# Configuracion: DoME n=40
+Insufficient_Weight,268,4,0,0,0,0,0
+Normal_Weight,57,160,10,0,0,29,31
+Obesity_Type_I,0,7,229,53,6,16,40
+Obesity_Type_II,0,1,3,292,1,0,0
+Obesity_Type_III,0,0,0,1,322,0,1
+Overweight_Level_I,0,30,68,0,0,161,31
+Overweight_Level_II,0,17,66,0,3,55,149
+
+# Configuracion: DoME n=50
+Insufficient_Weight,265,6,0,0,1,0,0
+Normal_Weight,47,159,8,0,0,38,35
+Obesity_Type_I,0,10,235,45,3,24,34
+Obesity_Type_II,0,1,1,293,0,1,1
+Obesity_Type_III,0,0,0,1,322,0,1
+Overweight_Level_I,0,31,43,0,0,191,25
+Overweight_Level_II,0,20,53,0,0,76,141
+
+# Configuracion: DoME n=60
+Insufficient_Weight,264,7,0,0,1,0,0
+Normal_Weight,42,162,3,0,1,45,34
+Obesity_Type_I,0,9,224,41,2,42,33
+Obesity_Type_II,0,1,3,291,0,2,0
+Obesity_Type_III,0,0,0,1,322,0,1
+Overweight_Level_I,0,31,32,0,0,197,30
+Overweight_Level_II,1,19,53,0,1,74,142
+
+# Configuracion: DoME n=70
+Insufficient_Weight,265,7,0,0,0,0,0
+Normal_Weight,33,167,6,0,0,49,32
+Obesity_Type_I,0,6,235,39,1,36,34
+Obesity_Type_II,0,1,6,288,0,0,2
+Obesity_Type_III,0,0,0,1,322,0,1
+Overweight_Level_I,0,26,34,0,0,210,20
+Overweight_Level_II,1,21,52,0,0,68,148
+
+# Configuracion: DoME n=80
+Insufficient_Weight,263,9,0,0,0,0,0
+Normal_Weight,25,182,3,0,0,47,30
+Obesity_Type_I,0,6,240,34,1,31,39
+Obesity_Type_II,0,1,2,291,0,2,1
+Obesity_Type_III,0,0,0,1,322,0,1
+Overweight_Level_I,0,33,33,0,0,197,27
+Overweight_Level_II,1,20,43,0,0,69,157
+
+# Configuracion: DoME n=90
+Insufficient_Weight,264,8,0,0,0,0,0
+Normal_Weight,23,182,2,0,0,51,29
+Obesity_Type_I,0,3,243,36,1,31,37
+Obesity_Type_II,0,1,4,291,0,1,0
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,0,29,24,0,0,210,27
+Overweight_Level_II,0,18,38,0,0,62,172
+
+# Configuracion: DoME n=100
+Insufficient_Weight,264,7,1,0,0,0,0
+Normal_Weight,23,184,3,0,0,52,25
+Obesity_Type_I,0,6,242,32,1,30,40
+Obesity_Type_II,0,2,2,292,0,0,1
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,0,29,18,0,0,228,15
+Overweight_Level_II,0,19,35,1,0,58,177
+

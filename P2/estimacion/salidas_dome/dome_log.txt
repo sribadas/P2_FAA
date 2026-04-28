@@ -1,0 +1,84 @@
+============================================================
+Cargando dataset...
+============================================================
+Dimensiones inputs (sin normalizar): (2111, 27)
+Clases: Insufficient_Weight, Normal_Weight, Obesity_Type_I, Obesity_Type_II, Obesity_Type_III, Overweight_Level_I, Overweight_Level_II
+F1 reportado: macro (promedio no ponderado entre clases)
+
+============================================================
+Iniciando experimentos DoME...
+============================================================
+
+>>> Configuracion: DoME n=3  (maximumNodes=3)
+  Train Acc: 41.14 ± 0.3 %
+  Accuracy : 41.21 ± 2.79 %
+  F1-score : 29.94 ± 2.92 %
+
+>>> Configuracion: DoME n=5  (maximumNodes=5)
+  Train Acc: 38.34 ± 0.58 %
+  Accuracy : 38.08 ± 2.64 %
+  F1-score : 27.9 ± 2.61 %
+
+>>> Configuracion: DoME n=8  (maximumNodes=8)
+  Train Acc: 52.37 ± 1.42 %
+  Accuracy : 52.39 ± 1.88 %
+  F1-score : 46.68 ± 2.96 %
+
+>>> Configuracion: DoME n=10  (maximumNodes=10)
+  Train Acc: 51.49 ± 1.46 %
+  Accuracy : 50.74 ± 2.16 %
+  F1-score : 46.36 ± 1.68 %
+
+>>> Configuracion: DoME n=15  (maximumNodes=15)
+  Train Acc: 59.47 ± 1.39 %
+  Accuracy : 58.03 ± 2.36 %
+  F1-score : 53.98 ± 2.7 %
+
+>>> Configuracion: DoME n=20  (maximumNodes=20)
+  Train Acc: 65.5 ± 2.25 %
+  Accuracy : 64.85 ± 1.34 %
+  F1-score : 62.57 ± 1.65 %
+
+>>> Configuracion: DoME n=30  (maximumNodes=30)
+  Train Acc: 72.12 ± 0.79 %
+  Accuracy : 70.57 ± 2.48 %
+  F1-score : 69.05 ± 2.63 %
+
+>>> Configuracion: DoME n=50  (maximumNodes=50)
+  Train Acc: 77.87 ± 1.41 %
+  Accuracy : 76.07 ± 2.85 %
+  F1-score : 75.06 ± 2.87 %
+
+>>> Configuracion: DoME n=75  (maximumNodes=75)
+  Train Acc: 80.78 ± 1.68 %
+  Accuracy : 78.44 ± 2.42 %
+  F1-score : 77.9 ± 2.39 %
+
+>>> Configuracion: DoME n=100  (maximumNodes=100)
+  Train Acc: 83.52 ± 1.88 %
+  Accuracy : 80.95 ± 3.38 %
+  F1-score : 80.52 ± 3.55 %
+
+✓ Resultados guardados en:
+  - C:\Users\somos\Downloads\P2 (4)\P2\estimacion\salidas_dome\datos\resultados_dome.csv
+  - C:\Users\somos\Downloads\P2 (4)\P2\estimacion\salidas_dome\datos\matrices_confusion_dome.csv
+Mejor configuracion DoME por macro-F1: DoME n=100 | Acc=80.95% | F1=80.52%
+
+============================================================
+RESUMEN FINAL - DoME
+============================================================
+Configuracion  | MaxNodes | TrainAcc(%)        | Acc(%)             | F1(%)             
+-------------------------------------------------------------------------------------
+DoME n=3       | 3        | 41.14 ± 0.3        | 41.21 ± 2.79       | 29.94 ± 2.92      
+DoME n=5       | 5        | 38.34 ± 0.58       | 38.08 ± 2.64       | 27.9 ± 2.61       
+DoME n=8       | 8        | 52.37 ± 1.42       | 52.39 ± 1.88       | 46.68 ± 2.96      
+DoME n=10      | 10       | 51.49 ± 1.46       | 50.74 ± 2.16       | 46.36 ± 1.68      
+DoME n=15      | 15       | 59.47 ± 1.39       | 58.03 ± 2.36       | 53.98 ± 2.7       
+DoME n=20      | 20       | 65.5 ± 2.25        | 64.85 ± 1.34       | 62.57 ± 1.65      
+DoME n=30      | 30       | 72.12 ± 0.79       | 70.57 ± 2.48       | 69.05 ± 2.63      
+DoME n=50      | 50       | 77.87 ± 1.41       | 76.07 ± 2.85       | 75.06 ± 2.87      
+DoME n=75      | 75       | 80.78 ± 1.68       | 78.44 ± 2.42       | 77.9 ± 2.39       
+DoME n=100     | 100      | 83.52 ± 1.88       | 80.95 ± 3.38       | 80.52 ± 3.55      
+-------------------------------------------------------------------------------------
+Mejor: DoME n=100 | TrainAcc=83.52 | Acc=80.95 | F1=80.52
+=====================================================================================

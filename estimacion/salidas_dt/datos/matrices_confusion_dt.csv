@@ -1,0 +1,67 @@
+# Matrices de confusion acumuladas (suma) sobre 10 folds
+# F1 reportado: macro (no ponderado)
+# Clases: Insufficient_Weight,Normal_Weight,Obesity_Type_I,Obesity_Type_II,Obesity_Type_III,Overweight_Level_I,Overweight_Level_II
+
+# Configuracion: DT max_depth=1
+Insufficient_Weight,272,0,0,0,0,0,0
+Normal_Weight,287,0,0,0,0,0,0
+Obesity_Type_I,351,0,0,0,0,0,0
+Obesity_Type_II,297,0,0,0,0,0,0
+Obesity_Type_III,324,0,0,0,0,0,0
+Overweight_Level_I,290,0,0,0,0,0,0
+Overweight_Level_II,290,0,0,0,0,0,0
+
+# Configuracion: DT max_depth=2
+Insufficient_Weight,272,0,0,0,0,0,0
+Normal_Weight,287,0,0,0,0,0,0
+Obesity_Type_I,351,0,0,0,0,0,0
+Obesity_Type_II,297,0,0,0,0,0,0
+Obesity_Type_III,324,0,0,0,0,0,0
+Overweight_Level_I,290,0,0,0,0,0,0
+Overweight_Level_II,290,0,0,0,0,0,0
+
+# Configuracion: DT max_depth=4
+Insufficient_Weight,272,0,0,0,0,0,0
+Normal_Weight,287,0,0,0,0,0,0
+Obesity_Type_I,351,0,0,0,0,0,0
+Obesity_Type_II,297,0,0,0,0,0,0
+Obesity_Type_III,324,0,0,0,0,0,0
+Overweight_Level_I,290,0,0,0,0,0,0
+Overweight_Level_II,290,0,0,0,0,0,0
+
+# Configuracion: DT max_depth=6
+Insufficient_Weight,272,0,0,0,0,0,0
+Normal_Weight,287,0,0,0,0,0,0
+Obesity_Type_I,351,0,0,0,0,0,0
+Obesity_Type_II,297,0,0,0,0,0,0
+Obesity_Type_III,324,0,0,0,0,0,0
+Overweight_Level_I,290,0,0,0,0,0,0
+Overweight_Level_II,290,0,0,0,0,0,0
+
+# Configuracion: DT max_depth=8
+Insufficient_Weight,272,0,0,0,0,0,0
+Normal_Weight,287,0,0,0,0,0,0
+Obesity_Type_I,351,0,0,0,0,0,0
+Obesity_Type_II,297,0,0,0,0,0,0
+Obesity_Type_III,324,0,0,0,0,0,0
+Overweight_Level_I,290,0,0,0,0,0,0
+Overweight_Level_II,290,0,0,0,0,0,0
+
+# Configuracion: DT max_depth=12
+Insufficient_Weight,272,0,0,0,0,0,0
+Normal_Weight,287,0,0,0,0,0,0
+Obesity_Type_I,351,0,0,0,0,0,0
+Obesity_Type_II,297,0,0,0,0,0,0
+Obesity_Type_III,324,0,0,0,0,0,0
+Overweight_Level_I,290,0,0,0,0,0,0
+Overweight_Level_II,290,0,0,0,0,0,0
+
+# Configuracion: DT max_depth=16
+Insufficient_Weight,272,0,0,0,0,0,0
+Normal_Weight,287,0,0,0,0,0,0
+Obesity_Type_I,351,0,0,0,0,0,0
+Obesity_Type_II,297,0,0,0,0,0,0
+Obesity_Type_III,324,0,0,0,0,0,0
+Overweight_Level_I,290,0,0,0,0,0,0
+Overweight_Level_II,290,0,0,0,0,0,0
+
