@@ -1,0 +1,67 @@
+# Matrices de confusion acumuladas (suma) sobre 10 folds
+# F1 reportado: macro (no ponderado)
+# Clases: Insufficient_Weight,Normal_Weight,Obesity_Type_I,Obesity_Type_II,Obesity_Type_III,Overweight_Level_I,Overweight_Level_II
+
+# Configuracion: kNN k=1
+Insufficient_Weight,241,21,3,0,0,5,2
+Normal_Weight,38,149,25,7,0,42,26
+Obesity_Type_I,5,11,292,12,1,12,18
+Obesity_Type_II,1,4,11,274,0,0,7
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,6,31,20,2,0,211,20
+Overweight_Level_II,2,19,20,5,3,16,225
+
+# Configuracion: kNN k=3
+Insufficient_Weight,245,20,0,0,0,5,2
+Normal_Weight,52,155,19,3,0,29,29
+Obesity_Type_I,5,14,290,17,4,8,13
+Obesity_Type_II,1,2,8,277,0,1,8
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,9,43,24,2,0,199,13
+Overweight_Level_II,4,30,30,6,1,19,200
+
+# Configuracion: kNN k=5
+Insufficient_Weight,246,17,0,0,0,6,3
+Normal_Weight,56,142,20,3,1,31,34
+Obesity_Type_I,3,13,281,21,6,11,16
+Obesity_Type_II,1,2,7,279,0,2,6
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,12,34,31,3,1,193,16
+Overweight_Level_II,6,26,38,9,1,22,188
+
+# Configuracion: kNN k=7
+Insufficient_Weight,240,18,2,0,0,9,3
+Normal_Weight,58,131,22,5,1,30,40
+Obesity_Type_I,5,8,278,27,6,8,19
+Obesity_Type_II,1,2,6,282,0,1,5
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,13,30,39,5,1,184,18
+Overweight_Level_II,5,24,36,10,1,25,189
+
+# Configuracion: kNN k=11
+Insufficient_Weight,229,22,5,0,0,10,6
+Normal_Weight,58,116,27,10,2,25,49
+Obesity_Type_I,3,9,272,32,8,9,18
+Obesity_Type_II,3,1,6,281,1,1,4
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,17,30,44,12,2,168,17
+Overweight_Level_II,8,20,38,15,3,24,182
+
+# Configuracion: kNN k=15
+Insufficient_Weight,226,22,6,4,0,9,5
+Normal_Weight,63,110,28,11,2,28,45
+Obesity_Type_I,4,7,261,40,9,10,20
+Obesity_Type_II,2,2,7,280,1,1,4
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,18,23,50,16,4,165,14
+Overweight_Level_II,14,19,41,17,3,25,171
+
+# Configuracion: kNN k=21
+Insufficient_Weight,224,19,9,5,0,11,4
+Normal_Weight,71,89,41,11,2,26,47
+Obesity_Type_I,4,6,254,47,12,9,19
+Obesity_Type_II,2,0,5,283,1,1,5
+Obesity_Type_III,0,1,0,0,322,0,1
+Overweight_Level_I,22,17,64,17,7,146,17
+Overweight_Level_II,13,16,44,28,5,18,166
+
