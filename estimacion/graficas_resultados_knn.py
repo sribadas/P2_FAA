@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-BASE_DIR      = Path('/sessions/laughing-inspiring-ride/mnt/FAA_P2/estimacion')
+BASE_DIR      = Path(__file__).resolve().parent
 OUT_DIR       = BASE_DIR / 'salidas_knn'
 DATA_DIR      = OUT_DIR / 'datos'
 TABLES_DIR    = OUT_DIR / 'tablas'
@@ -176,3 +176,4 @@ print(f"\nMejor configuración: {best_name}")
 print(f"  Train Acc: {df.iloc[0]['TrainAcc_media']*100:.2f}%")
 print(f"  Test  Acc: {df.iloc[0]['Acc_media']*100:.2f}%")
 print(f"  F1-score : {df.iloc[0]['F1_media']*100:.2f}%")
+                                
