@@ -8,7 +8,7 @@ using DataFrames
 using Random
 using Statistics
 using CSV
-using StatsBase
+import StatsBase: sample
 using MLJ
 
 @load KNNClassifier pkg=NearestNeighborModels verbosity=0
@@ -222,8 +222,8 @@ for cfg in knn_configs
     conf_matrices[name] = conf_mat
 
     if f1_m > best_f1_exact
-        best_f1_exact = f1_m
-        best_result_name = name
+        global best_f1_exact = f1_m
+        global best_result_name = name
     end
 end
 
